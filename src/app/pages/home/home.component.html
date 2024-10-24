@@ -1,0 +1,22 @@
+<main>
+    <div class="countries">
+        <div class="card">
+            @for (p of paises; track p.countries){
+                <div class="card-content">
+                    <div class="image">
+                        <img src="" alt="lugar">
+                    </div>
+                    <div class="tittle-card">
+                        <div class="bandera">
+                            <img src="" alt="bandera">
+                        </div>
+                        <div class="tittle-countries">
+                            <h2>{{ p.name }}</h2>
+                            <p>{{ p.continent.name }}</p>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</main>

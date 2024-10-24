@@ -1,0 +1,46 @@
+.countries {
+    width: max-content;
+    margin: auto;
+    padding: 60px 0px;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 30px;
+}
+
+.card-content {
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    box-shadow: 0 0 6px #5f5f5f;
+}
+
+.card-content .image{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-content .tittle-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+}
+
+.tittle-card .tittle-countries h2{
+    color: rgb(66, 190, 248);
+    font-size: 22px;
+}
+
+.tittle-countries p{
+    font-size: 18px;
+    color: #5f5f5f;
+}
